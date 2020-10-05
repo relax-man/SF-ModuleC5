@@ -1,0 +1,32 @@
+.container {
+  display: grid;
+  max-width: 500px;
+}
+
+.btn {
+  justify-self: end;
+  width: 10em;
+}
+
+.gallery {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-gap: 0.5em;
+  padding: 0.5em;
+  border: 1px solid rgba(0, 0, 0, 0.25);
+  border-radius: 5px;
+}
+
+.gallery-img {
+  background-position: center;
+  background-size: cover;
+  height: 230px;
+  border-radius: 5px;
+}
+
+.warning {
+  border: 1px solid #df2323;
+  border-radius: 5px;
+  padding: 0.8em;
+  color: #df2323;
+}
